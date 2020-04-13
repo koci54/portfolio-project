@@ -14,7 +14,7 @@ export default function Header() {
         <a style={linkStyle}>About</a>
       </Link>
       <Link href="/contact">
-        <a style={linkStyle}>Contact</a>
+        <a style={linkStyle}>Contact me</a>
       </Link>
     </div>
   )

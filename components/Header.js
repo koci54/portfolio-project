@@ -1,21 +1,23 @@
-import Link from 'next/link'
-
-const linkStyle = {
-  marginRight: 15
-}
+import Link from 'next/link';
+import '../assets/css/styles.css'
+import { Button } from '@material-ui/core'
 
 export default function Header() {
   return (
-    <div>
-      <Link href="/">
-        <a style={linkStyle}>Home</a>
-      </Link>
-      <Link href="/about">
-        <a style={linkStyle}>About</a>
-      </Link>
-      <Link href="/contact">
-        <a style={linkStyle}>Contact me</a>
-      </Link>
+    <div className="header">
+      <div className="logo">
+        <Link href="/">
+          <Button color='primary'>Petr Kocian</Button>
+        </Link>
+      </div>
+      <div className="rightlinks">
+        <Link href="/about">
+        <Button>About</Button>
+        </Link>
+        <Link href="/contact">
+        <Button>Contact me</Button>
+        </Link>
+      </div>
     </div>
   )
 }

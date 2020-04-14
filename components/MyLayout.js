@@ -1,6 +1,6 @@
 import Header from './Header'
 import Footer from './Footer'
-import House from './Head'
+import Tete from './Head'
 
 const layoutStyle = {
   margin: 20,
@@ -11,7 +11,7 @@ const layoutStyle = {
 export default function Layout(props) {
   return (
     <div style={layoutStyle}>
-      <House />
+      <Tete />
       <Header />
       {props.children}
       <Footer />

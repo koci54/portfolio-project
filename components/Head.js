@@ -1,6 +1,6 @@
 import Head from 'next/head';
 
-const House = props => (
+const Tete = props => (
     <div>
         <Head>
             <title>Petr Kocian portfolio</title>
@@ -27,4 +27,4 @@ const House = props => (
     </div>
 )
 
-export default House
+export default Tete

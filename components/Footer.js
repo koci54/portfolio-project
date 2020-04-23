@@ -1,10 +1,8 @@
-import Link from 'next/link';
-// import '../assets/css/styles.css'
+import "../assets/scss/Footer.scss";
 import { Button } from '@material-ui/core'
 
-export default function Footer() {
-  return (
-    <div className="footer">
+const Footer = () => (
+    <div className="Footer">
      <Button
             href="https://twitter.com/PetrKocian"
             target="_blank"
@@ -33,4 +31,5 @@ export default function Footer() {
     
     </div>
   )
-}
+
+export default Footer;

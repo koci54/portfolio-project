@@ -1,0 +1,22 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background: crimson;
+    
+  }
+
+.logo {
+  margin: 20px;
+
+}
+
+.rightlinks {
+  margin: 5px;
+}
+
+.logo > .Button {
+  color: #fff;
+}

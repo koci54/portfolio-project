@@ -1,7 +1,9 @@
-const withCSS = require('@zeit/next-css');
+const withPlugins = require("next-compose-plugins");
+const withSass = require("@zeit/next-sass");
 const withFonts = require('next-fonts');
-module.exports = withCSS(withFonts({
+
+module.exports = withPlugins([[withSass], [withFonts]], {
   webpack(config, options) {
    return config;
   },
-}));
+});

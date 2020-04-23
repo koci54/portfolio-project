@@ -1,20 +1,19 @@
 import Header from './Header'
 import Footer from './Footer'
 import Tete from './Head'
+import "../assets/scss/MyLayout.scss";
+import "../assets/scss/index.scss";
 
-const layoutStyle = {
-  margin: 20,
-  padding: 20,
-  border: '1px dotted #DDD'
-}
-
-export default function Layout(props) {
-  return (
-    <div style={layoutStyle}>
+const Layout = props =>
+   (
+    <div className="Layout">
       <Tete />
       <Header />
-      {props.children}
+      <div className="Content">
+        {props.children}
+        </div>
       <Footer />
     </div>
   )
-}
+
+export default Layout;

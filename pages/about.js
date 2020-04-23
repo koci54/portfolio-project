@@ -1,7 +1,7 @@
 import Layout from '../components/MyLayout.js'
 
-export default function About() {
-  return (
+const About = () => 
+  (
     <Layout>
         <h1>
         About the project
@@ -10,4 +10,5 @@ export default function About() {
          <p>The main goal is to experiment with technologies and learn new skills along the way.</p>
     </Layout>
   )
-}
+
+export default About;

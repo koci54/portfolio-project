@@ -1,13 +1,21 @@
 import Link from 'next/link';
-import '../assets/css/styles.css'
+import "../assets/scss/Header.scss";
 import { Button } from '@material-ui/core'
 
-export default function Header() {
-  return (
-    <div className="header">
-      <div className="logo">
+const logo = {
+ 
+  border: 0,
+  color: 'white',
+  height: 28,
+  padding: '30px',
+
+};
+
+const Header = () => (
+    <div className="Header">
+      <div >
         <Link href="/">
-          <Button color='primary'>Petr Kocian</Button>
+          <Button style={logo}>Petr Kocian</Button>
         </Link>
       </div>
       <div className="rightlinks">
@@ -19,5 +27,6 @@ export default function Header() {
         </Link>
       </div>
     </div>
-  )
-}
+)
+
+export default Header;

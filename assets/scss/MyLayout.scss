@@ -17,13 +17,14 @@
       margin: 20px;
 
       .box {
-         color: red;
-         padding-top: 360px;
+         // color: red;
+         padding-top: 380px;
           @include sm {
-              color: blue;
+            padding-top: 10px;
+            // color: blue;
           }
           @include xl {
-              color: orange;
+            //  color: orange;
           }
       }
   

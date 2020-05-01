@@ -3,7 +3,7 @@ import Footer from './Footer'
 import Tete from './Head'
 import "../assets/scss/MyLayout.scss";
 import "../assets/scss/index.scss";
-import image from "../assets/img/bg1.jpg"
+import image from "../assets/img/bg1.jpg";
 
 const Layout = props =>
    (
@@ -12,7 +12,8 @@ const Layout = props =>
       backgroundImage: "url(" + image + ")",
       backgroundSize: "cover",
       backgroundPosition: "top center"
-    }}>
+    }}
+    >
       <Tete />
       <Header />
       <div  className="Content">

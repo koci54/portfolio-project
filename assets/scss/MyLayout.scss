@@ -19,6 +19,7 @@
       .box {
          // color: red;
          padding-top: 380px;
+         padding-bottom: 10px;
           @include sm {
             padding-top: 10px;
             // color: blue;

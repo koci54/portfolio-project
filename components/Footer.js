@@ -27,6 +27,14 @@ const Footer = () => (
           >
             <i className={"githubicon" + " fab fa-github"} />
           </Button>
+          <Button
+            color="inherit"
+            href="https://www.linkedin.com/in/petrkocian1/"
+            target="_blank"
+            className="instagramlink"
+          >
+            <i className={"linkedinicon" + " fab fa-linkedin"} />
+    </Button>
 
     
     </div>

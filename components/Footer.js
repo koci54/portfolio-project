@@ -29,6 +29,14 @@ const Footer = () => (
           </Button>
           <Button
             color="inherit"
+            href="https://gitlab.com/zen.petr"
+            target="_blank"
+            className="gitlablink"
+          >
+            <i className={"gitlabicon" + " fab fa-gitlab"} />
+          </Button>
+          <Button
+            color="inherit"
             href="https://www.linkedin.com/in/petrkocian1/"
             target="_blank"
             className="instagramlink"

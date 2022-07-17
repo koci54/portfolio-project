@@ -6,8 +6,9 @@ const Contact = () => (
         <h1>
         Contact me
         </h1>
-        <p>Feel free to reach out to me.</p>
-        <p>petr.kocian@yahoo.com</p>
+        <p>Feel free to reach out to me via Twitter.</p>
+        <p>You can send me an email.</p>
+        <p>petr.kocian@proton.me</p>
         </div>
     </Layout>
 )

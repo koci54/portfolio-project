@@ -19,11 +19,11 @@ const Header = () => (
         </Link>
       </div>
       <div className="rightlinks">
-        <Link href="/about">
-        <Button>About</Button>
+        <Link href="/bio">
+        <Button>Bio</Button>
         </Link>
         <Link href="/contact">
-        <Button>Contact me</Button>
+        <Button>Get in touch</Button>
         </Link>
       </div>
     </div>

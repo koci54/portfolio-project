@@ -5,9 +5,9 @@ const Index = () =>
      (
       <Layout>
         <div className="box">
-        <h1>Welcome</h1>
+        <h1>Hello & Welcome</h1>
         <p>My name is Petr Kocian.</p>
-        <p>Stay tuned for more.</p>
+        <p>Thank you for visiting my simple portfolio.</p>
         </div>
       </Layout>
     );

@@ -1,6 +1,9 @@
 import Link from 'next/link';
 import "../assets/scss/Header.scss";
-import { Button } from '@material-ui/core'
+import { Button } from '@material-ui/core';
+import { hotjar } from 'react-hotjar'
+import { useEffect } from 'react'
+
 
 const logo = {
  
@@ -12,6 +15,7 @@ const logo = {
 };
 
 const Header = () => (
+  
     <div className="Header">
       <div >
         <Link href="/">
@@ -28,5 +32,7 @@ const Header = () => (
       </div>
     </div>
 )
-
+useEffect(() => {
+  hotjar.initialize(3082663, 6)
+}, [])
 export default Header;

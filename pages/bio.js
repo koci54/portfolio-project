@@ -4,12 +4,11 @@ const About = () =>
   (
     <Layout>
         <div className="box">
-        <h1>
-        About me
-        </h1>
-          <p>My professional journey in IT began in 2016. I started with web development. By trial and error, I learned how to troubleshoot and use online information when needed. I am grateful for the internet and all its tools that enabled me to work as a cloud system administrator. Some of the tools I use are Python, Shell, Docker, Kubernetes and it is good to know how to call an API.</p>
-          <p>I have always been curious about technology and I am trying to learn something new every day. I also speak Czech, English, French, and a little Spanish.</p>
-        </div>
+    <h1>About me</h1>
+    <p>My professional journey in IT began in 2016 with a focus on web development. Over time, my curiosity and determination led me to acquire expertise in a variety of tools such as Python, Shell, API, and integrations. My ability to troubleshoot and utilize online resources proved invaluable in my role as a cloud system administrator. Now, as a technical consultant, I continue to embrace the challenge of learning something new every day.</p>
+    <p>With a deep passion for technology and continuous improvement, I also possess language skills in Czech, English, French, and a little Spanish, enriching my ability to communicate and collaborate across diverse teams.</p>
+</div>
+
     </Layout>
   )
 
